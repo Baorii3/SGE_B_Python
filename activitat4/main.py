@@ -12,30 +12,31 @@ colibri2 = Colibri("Chali",10,2,5,"multicolor")
 colibri3 = Colibri("Izan",6,5,2,"blau")
 
 #getters de Cotxe
-print("Marca Cotxe:",cotxe1.getMarca())
-print("Model Cotxe:",cotxe1.getModel())
-print("Motor Cotxe:",cotxe1.getMotor())
+print("Marca cotxe1:",cotxe1.getMarca())
+print("Model cotxe1:",cotxe1.getModel())
+print("Motor cotxe1:",cotxe1.getMotor())
 
 #getters de Colibri
-print("Nom Colibri:",colibri1.getNom())
-print("Edat Colibri:",colibri1.getEdat())
-print("Color Colibri:",colibri1.getColor())
+print("Nom colibri1:",colibri1.getNom())
+print("Edat colibri1:",colibri1.getEdat())
+print("Color colibri1:",colibri1.getColor())
+print("Pes colibri1:",colibri1.getPes())
 
 #Setters de Cotxe
 cotxe1.setModel("RenaultGrand")
 cotxe1.setMotor("Motor Grand")
 
 #Getters de Cotxe dels atributs modificats
-print("Model Cotxe despres de canviar:",cotxe1.getModel())
-print("Motor Cotxe despres de canviar:",cotxe1.getMotor())
+print("Model cotxe1 despres de canviar:",cotxe1.getModel())
+print("Motor cotxe1 despres de canviar:",cotxe1.getMotor())
 
 #Setters de Colibri
 colibri1.setNom("Imad")
 colibri1.setEdat("3")
 
 #Getters de Colibri dels atributs modificats
-print("Nom Colibri despres de canviar:",colibri1.getNom())
-print("Edat Colibri despres de canviar:",colibri1.getEdat())
+print("Nom colibri1 despres de canviar:",colibri1.getNom())
+print("Edat colibri1 despres de canviar:",colibri1.getEdat())
 
 
 
