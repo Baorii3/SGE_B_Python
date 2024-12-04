@@ -9,29 +9,29 @@ class Cotxe:
     
     #Getters i Setters
     
-    def getModel(self):
+    def getMarca(self):
         return self.marca
-    def setNumRodes(self, nueva_marca):
+    def setMarca(self, nueva_marca):
         self.marca = nueva_marca
 
     def getModel(self):
         return self.model
-    def setMarca(self,nuevo_model):
+    def setModel(self,nuevo_model):
         self.model = nuevo_model
 
-    def getModel(self):
+    def getNumRodes(self):
         return self.num_rodes
     def setNumRodes(self, nuevo_numRodes):
         self.num_rodes = nuevo_numRodes
     
-    def getModel(self):
+    def getPortes(self):
         return self.portes
-    def setMarca(self, nueva_portes):
+    def setPortes(self, nueva_portes):
         self.portes = nueva_portes
 
-    def getModel(self,nuevo_model):
+    def getMotor(self):
         return self.motor
-    def setMarca(self, nuevo_motor):
+    def setMotor(self, nuevo_motor):
         self.motor = nuevo_motor
 
 
